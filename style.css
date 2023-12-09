@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+/* left part of header */
+
+header .left {
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+header .left img {
+    width: 105px;
+    height: 54px;
+}
+
+/* right part of header */
+
+header .right {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+}
+
+header .right a {
+    font-size: 16px;
+    font-family: inter;
+    color: white;
+    font-weight: 400;
+}
+
+header .right .search-icon {
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+header .right .search-icon i {
+    color: white;
+    margin: 4px 5px;
+}
+
+/* navbar */
+
+nav {
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(91, 91, 91, 0.345);
+}
+
+/* navbar left side */
+
+nav .nav-left {
+    width: 50%;
+
+}
+
+nav .nav-left .green {
+    background-color: rgb(58, 218, 58);
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: white;
+}
+
+nav .nav-left a {
+    font-family: inter;
+    font-size: 14px;
+    color: black;
+    padding: 12px 17px;
+    font-weight: 800;
+}
+
+nav .nav-left a i {
+    margin: 5px 5px;
+}
+
+/* navbar right side */
+
+nav .nav-right {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+nav .nav-right a {
+    padding: 0px 4px;
+    color: black;
+}
+
+nav .nav-right a i {
+    padding: 0px 4px;
+    font-weight: 800;
+}
+
+/* banner part  */
+
+.carousel-control-prev i ,.carousel-control-next i{
+    font-size: 40px;
+    color: black;
+}
+
+.images{
+   height: 496px;
+   padding: 15px 0px 15px 11rem ;
+   align-items: center;
+}
+.image-box{
+display: flex;
+width: 1170px;
+}
+.image-box .up{
+margin: 10px 10px;
+}
+.image-box .image-box-1{
+    width: 556px;
+    height: 208px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image-box .image-box-2{
+    width: 556px;
+    height: 208px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image-box .down{
+ margin: 10px  15px;
+}
+.image-box .image-box-3{
+    width: 556px;
+    height: 208px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image-box .image-box-4{
+    width: 556px;
+    height: 208px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* smart accessories section */
+
+.smartAccessories{
+    height: 413px;
+    background-color: #F8F9FA;
+}
+.smartAccessories h2{
+justify-content: center;
+font-size: 23px;
+font-weight: 500;
+opacity: 0.6;
+display: flex;
+padding: 8px;
+}
+
+.smartAccessories-box{
+display : flex;
+justify-content: center;
+gap: 5px;
+
+}
+.smartAccessories-box-1{
+    height: 256px;
+    width: 296px;
+    background-color:white;
+    justify-content: center;
+    display: flex;
+}
+.smartAccessories-box-1 img{
+    height: 160px;
+    width: 160px;
+}
+
+.smartAccessories-box-2{
+    height: 256px;
+    width: 296px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+.smartAccessories-box-2 img{
+    height: 150px;
+    width: 150px;
+}
+.smartAccessories-box-3{
+    height: 256px;
+    width: 296px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+.smartAccessories-box-3 img{
+    height: 150px;
+    width: 150px;
+}
+.smartAccessories-box-4{
+    height: 256px;
+    width: 296px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+.smartAccessories-box-4 img{
+    height: 150px;
+    width: 140px;
+    padding-top: 10px;
+}
